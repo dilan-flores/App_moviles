@@ -14,7 +14,7 @@ export const environment = {
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   firebaseConfig: {
-    apiKey: "AIzaSyDvK1IQFf1np4zX_QJOUabsr9s8AISIIok",
+    apiKey: "API",
     authDomain: "app-2023b.firebaseapp.com",
     projectId: "app-2023b",
     storageBucket: "app-2023b.appspot.com",
