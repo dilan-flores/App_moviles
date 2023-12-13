@@ -1,0 +1,131 @@
+#present-alert{
+    display:center;
+    justify-content: center;
+}
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la cabecera */
+ion-header {
+    --background: #D5E5F5;
+}
+
+#perfil {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #3781E3;
+}
+
+/* Estilos de la sección de perfil */
+#perfil {
+    background-color: #D5E5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 10px;
+    border-bottom: 1px solid #4a5058;
+}
+
+ion-img {
+    width: 30%;
+}
+
+#perfil .perfil_content {
+    width: 40%;
+}
+
+/* Estilos de la sección de datos */
+#datos {
+    border-bottom: 1px solid #4a5058;
+    padding: 40px 0px 20px;
+    flex-wrap: wrap;
+}
+
+#Sobre_mi ion-card-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding:150px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: #D5E5F5;
+}
+
+.Sobre_mi-content{
+    align-items: center;
+    align-self: center;
+    width: 40%;
+    text-align:justify;
+}
+
+#Sobre_mi ion-card-title, h1{
+    padding-bottom: 20px;
+}
+
+#Estudios{
+    padding: 150px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#Estudios ion-card-title{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.academico h1, .idiomas h1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#Estudios .formacion{
+    border-left: #4a5058;
+    border-left-width: 1px;
+    border-left-style: solid;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.fecha{
+    text-align: end;
+}
+
+#Experiencia{
+    display: flex;
+    //text-align: center;
+    justify-content: space-around;
+    background-color: #D5E5F5;
+    padding: 200px 0px;
+    border-bottom: #4a5058;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#Experiencia ion-card-title{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Experiencia_content_part ion-label{
+    display: flex;
+    //align-items: center;
+    //align-self: center;
+    padding-bottom: 20px;
+    //text-align: justify;
+}
+
+ion-button{
+    display: flex;
+    justify-content: center;
+}
